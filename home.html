@@ -27,9 +27,9 @@
 </div>
     </header>
     <section class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl">
-        <button  class="btn active selbtn">All</button>
-        <button onclick="loadOpenData()" class="btn selbtn">Open</button>
-        <button class="btn selbtn"> Closed</button>
+        <button id="all" onclick="loadAlldata()"  class="btn active selbtn">All</button>
+        <button id="open" onclick="loadOpenData()" class="btn selbtn">Open</button>
+        <button id="close" onclick="loadCloseData()" class="btn selbtn"> Closed</button>
     </section>
     <section class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl flex justify-between items-center">
         <div class="flex items-center gap-2"><img src="./assets/Aperture.png" alt="">
@@ -43,7 +43,7 @@
         </div>
         
     </section>
-    <section class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl" >
+    <section id="sec" class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl" >
       <div id="card-container" class="grid grid-cols-2 md:grid-cols-4 gap-2">
         <div class="space-y-3 shadow-sm p-5 rounded-lg border-t-4 border-t-[#00A96E]">
             <div class="flex justify-between">
