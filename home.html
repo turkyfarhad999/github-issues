@@ -27,9 +27,9 @@
 </div>
     </header>
     <section class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl">
-        <button class="btn">All</button>
-        <button class="btn">Open</button>
-        <button class="btn"> Closed</button>
+        <button  class="btn active selbtn">All</button>
+        <button onclick="loadOpenData()" class="btn selbtn">Open</button>
+        <button class="btn selbtn"> Closed</button>
     </section>
     <section class="my-4 max-w-8/10 mx-auto shadow-sm p-5 rounded-xl flex justify-between items-center">
         <div class="flex items-center gap-2"><img src="./assets/Aperture.png" alt="">
@@ -61,6 +61,22 @@
 
         </div>
       </div>
+    </section>
+    <section>
+       
+<!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+<dialog id="my_modal_1" class="modal">
+  <div id="mod" class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
     </section>
     <script src="./script/data.js"></script>
 </body>
