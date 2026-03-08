@@ -96,7 +96,7 @@ document.getElementById("mod").innerHTML=`
 <h1 class="font-bold text-2xl">${data.title}</h1>
     <div class="flex justify-between items-center">
         <button class="px-5 py-1 rounded-lg text-[#FEECEC] bg-[#00A96E] text-[12px] border-none ">opened</button>
-        <p class="text-[#64748B] text-[12px]">${data.author} </p>
+        <p class="text-[#64748B] text-[12px]">opened by ${data.author} </p>
         <p class="text-[#64748B] text-[12px]">${data.createdAt}</p>
     </div>
     <div class="flex flex-wrap gap2 py-3 border-b border-b-[#E4E4E7]">
