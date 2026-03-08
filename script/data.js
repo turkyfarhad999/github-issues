@@ -62,7 +62,7 @@ for(const i of data){
                 ${i.labels[1]?
                ` <btn class="px-5 rounded-lg text-[#D97706] bg-[#FDE68A] text-[12px]"><i class="fa-solid fa-virus"></i> ${i.labels[1]}</btn>`:''}
             </div>
-            <p class="text-[#64748B] text-[12px]">#${i.author}</p>
+            <p class="text-[#64748B] text-[12px]">#${i.id} ${i.author}</p>
             <p class="text-[#64748B] text-[12px]">${i.createdAt}</p>
 
         </div>
@@ -147,7 +147,7 @@ for(const i of data){
                 ${i.labels[1]?
                ` <btn class="px-5 rounded-lg text-[#D97706] bg-[#FDE68A] text-[12px]"><i class="fa-solid fa-virus"></i> ${i.labels[1]}</btn>`:''}
             </div>
-            <p class="text-[#64748B] text-[12px]">#${i.author}</p>
+            <p class="text-[#64748B] text-[12px]">#${i.id} ${i.author}</p>
             <p class="text-[#64748B] text-[12px]">${i.createdAt}</p>
 
         </div>
@@ -194,7 +194,7 @@ for(const i of data){
                 ${i.labels[1]?
                ` <btn class="px-5 rounded-lg text-[#D97706] bg-[#FDE68A] text-[12px]"><i class="fa-solid fa-virus"></i> ${i.labels[1]}</btn>`:''}
             </div>
-            <p class="text-[#64748B] text-[12px]">#${i.author}</p>
+            <p class="text-[#64748B] text-[12px]">#${i.id} ${i.author}</p>
             <p class="text-[#64748B] text-[12px]">${i.createdAt}</p>
 
         </div>
